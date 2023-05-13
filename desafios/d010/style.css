@@ -1,0 +1,265 @@
+/* Cores
+Topo: #4FAA6F #348253 #1A5A37
+BG Color: #89CDA5 */
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "idroid";
+  src: url(fontes/idroid.otf) format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #89cda5;
+  line-height: 2em;
+}
+
+.top {
+  background-image: linear-gradient(
+    to bottom,
+    #4faa6f,
+    #348253,
+    #1a5a37,
+    #1a5a37
+  );
+  color: white;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+  margin: auto;
+}
+
+.top > h1 {
+  text-align: center;
+  font-family: "bebas neue";
+  font-size: 37px;
+  padding: 15px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.top > p {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.top > nav {
+  padding: 50px 0px 8px 10px;
+}
+
+.top > nav > a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.top > nav > a:hover {
+  border: 1px transparent;
+  background-color: #4faa6f;
+  border-radius: 5px;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+  border: 1px transparent;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.historia {
+  text-align: center;
+}
+
+.historia > h1 {
+  font-family: "idroid";
+  font-size: 35px;
+  padding: 30px;
+  color: #103621;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+}
+
+.historia > p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: justify;
+  padding: 20px 35px 40px 35px;
+  text-indent: 40px;
+}
+
+.historia > p > span {
+  color: #103621;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.144);
+  font-weight: bold;
+}
+
+.historia > p > a {
+  text-decoration: none;
+  color: #103621;
+  font-weight: bold;
+}
+
+.historia > p > a:hover {
+  background-color: #103621;
+  color: white;
+}
+
+.historia > h2 {
+  font-family: "idroid";
+  font-size: 25px;
+  background-image: linear-gradient(to right, #8dcfa8, #c1e5cf, white);
+  text-align: left;
+  color: #195534;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+  margin-left: 35px;
+  padding: 5px 0px 5px 10px;
+  border: 1px black;
+  border-radius: 10px;
+}
+
+.mascote {
+  text-align: center;
+}
+
+.mascote > h2 {
+  font-family: "idroid";
+  font-size: 25px;
+  background-image: linear-gradient(to right, #8dcfa8, #c1e5cf, white);
+  text-align: left;
+  color: #195534;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.384);
+  margin-left: 35px;
+  padding: 5px 0px 5px 10px;
+  border: 1px black;
+  border-radius: 10px;
+}
+
+.mascote > p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  text-align: justify;
+  padding: 20px 35px 40px 35px;
+  text-indent: 40px;
+}
+
+.mascote > p > span {
+  color: #103621;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.144);
+  font-weight: bold;
+}
+
+.mascote > p > a {
+  text-decoration: none;
+  color: #103621;
+  font-weight: bold;
+}
+
+.mascote > p > a:hover {
+  background-color: #103621;
+  color: white;
+}
+
+.video {
+  background-color: #103621;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  width: 850px;
+  margin: auto;
+}
+
+.extra {
+  width: 850px;
+  padding: 25px;
+}
+
+.extra > article {
+  background-color: #c5ebd6;
+  text-align: justify;
+  border: 1px black;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+.extra > h1 {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color: white;
+  background-color: #2fa866;
+  border: 1px black;
+  border-radius: 5px 5px 0px 0px;
+  padding: 8px 0px 8px 10px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+.extra > article > p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  text-align: justify;
+  padding: 20px 35px 40px 35px;
+  text-indent: 30px;
+}
+
+.extra > article > p > a {
+  text-decoration: none;
+  color: #103621;
+  font-weight: bold;
+}
+
+.extra > article > p > a:hover {
+  background-color: #103621;
+  color: white;
+}
+
+.extra > article > ul > li::before {
+  content: "✓ ";
+}
+
+.extra > article > ul {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  text-align: justify;
+  padding: 20px 35px 40px 35px;
+}
+
+.final > p {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 19px;
+  text-align: justify;
+  padding: 20px 35px 40px 35px;
+  text-indent: 30px;
+}
+
+.final > p > span {
+  color: #103621;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.144);
+  font-weight: bold;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: 13px;
+  padding: 1px 0px 1px 0px;
+  background-color: #1a5a37;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}

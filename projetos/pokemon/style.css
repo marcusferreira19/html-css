@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* Paleta de cores: https://color.adobe.com/pt/explore?page=2 */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #5c4b51;
+}
+
+header {
+  background-color: #f06060;
+  padding: 5px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px #00000059;
+}
+
+main {
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  background-color: #f2ebbf;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000002d;
+  display: inline-block;
+}
+
+main:hover {
+  box-shadow: 5px 5px 5px #cf0c0c;
+}
+
+div {
+}
+
+section {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f06060;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000002d;
+}
+
+h1 {
+  padding: 1px;
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  padding: 25px;
+  color: #5c4b51;
+}
+
+h3 {
+  padding: 10px;
+  color: #5c4b51;
+  background-color: #f2ebbf;
+  width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000002d;
+}
+
+p {
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #f06060;
+  width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px #0000002d;
+}
