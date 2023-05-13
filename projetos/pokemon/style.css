@@ -39,6 +39,7 @@ header {
   padding: 25px;
   min-height: 150px;
   max-height: 500px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
 }
 
 header > h1 {
