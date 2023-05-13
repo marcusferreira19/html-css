@@ -116,11 +116,14 @@ article > p.type {
 }
 
 article > p.desc {
+  background-color: var(--cor1);
   font-size: 1.4em;
   font-weight: lighter;
   text-align: justify;
   padding: 15px;
-  max-width: var(--max-width);
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
+  max-width: 750px;
   margin: auto;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
 }
@@ -140,6 +143,6 @@ article > aside > p {
 
 aside img {
   border-radius: 25%;
-  background-color: var(--cor4);
+  background-color: var(--cor1);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
 }
