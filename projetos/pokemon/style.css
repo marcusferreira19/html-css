@@ -11,8 +11,8 @@
 
 :root {
   --cor0: #837b9c;
-  --cor1: #9de3a2;
-  --cor3: #6f9672;
+  --cor1: #ebe073;
+  --cor3: #9e942e;
   --cor4: #e3d6ca;
   --cor5: #422300;
   --fonte-padrao: "PT Sans";
@@ -81,7 +81,7 @@ nav > a {
 }
 
 nav > a:hover {
-  background-color: var(--cor4);
+  background-color: var(--cor0);
   border: 1px solid black;
   transition-duration: 2s;
 }
@@ -99,7 +99,7 @@ main {
 article h1 {
   padding: 20px;
   font-size: 2.3em;
-  background-color: var(--cor4);
+  background-color: var(--cor1);
   width: 200px;
   border-radius: 0px 5px 5px 0px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
