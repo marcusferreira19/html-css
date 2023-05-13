@@ -58,7 +58,6 @@ header > p {
 }
 
 nav {
-  background-color: var(--cor1);
   font-family: var(--fonte-destaque);
   font-size: 0.6em;
   text-align: center;
@@ -69,16 +68,14 @@ nav {
   border-radius: 5px;
   min-height: 15px;
   max-height: 50px;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.418);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
 }
 
 nav > a {
+  background-color: var(--cor1);
   text-align: center;
-  background-color: var(--cor3);
   text-decoration: none;
   color: rgb(0, 0, 0);
-
   border-radius: 5px;
   padding: 5px;
 }
