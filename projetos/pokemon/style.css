@@ -64,7 +64,7 @@ nav {
   text-align: center;
   font-weight: bold;
   margin-top: -70px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
   padding: 10px;
   border-radius: 5px;
   min-height: 15px;
@@ -88,7 +88,7 @@ nav > a:hover {
 }
 
 main {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.349);
   min-width: var(--min-width);
   max-width: var(--max-width-g);
   margin: auto;
