@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root{
+  --texto: 'Pangolin', cursive;
+  --titulo: 'Roboto Slab', serif;
+  --outro: 'Times New Roman', Times, serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body{
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header > h1{
+  padding-top: 50px;
+  font-family: var(--titulo);
+  font-variant: small-caps;
+  font-size: 5vw;
+}
+
+header > p {
+  padding-bottom: 50px;
+  font-family: var(--outro);
+}
+
+section{
+  font-family: var(--texto);
+  font-size: 3.5vw;
+  line-height: 2em;
+  color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+}
+
+section > p{
+  padding-bottom: 2em;
+}
+
+section.normal{
+  background-color: rgba(54, 0, 105, 0.589);
+  text-shadow: 1px 1px 0px black;
+  
+}
+
+section.imagem{
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section.imagem > p {
+display: inline-block;
+padding: 5px;
+ background-color: rgba(0, 0, 0, 0.822);
+ text-shadow: 1px 1px 0px black;
+ 
+}
+
+section.imagem#img01{
+  background-image: url(../imagens/background001.jpg);
+}
+
+section.imagem#img02{
+  background-image: url(../imagens/background002.jpg);
+}
+
+footer{
+  background-color: black;
+  color: white;
+  font-family: var(--outro);
+  text-align: center;
+  padding: 10px;
+}
