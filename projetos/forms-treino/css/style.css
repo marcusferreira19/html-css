@@ -52,9 +52,11 @@ body, html {
   flex-basis: 300px;
   border: 1px transparent black;
   border-radius: 5px;
+  text-shadow: 1px 1px 1px black;
+  box-shadow: 1px 1px 1px #2c2117;
 }
 
-.base > label, .role > p, .recommend > p, .recommend > label {
+.base > label, .role > p, .favorite > p, .comment > label, .recommend > p, .improved > p {
   display: block;
   min-width: 400px;
   font-family: ubuntu;
@@ -66,7 +68,7 @@ body, html {
   padding-bottom: 7px;
 }
 
-.base > input, .role > select {
+.base > input, .role > select, .favorite > select {
   margin: auto;
   display: flex;
   flex-basis: 300px;
@@ -79,30 +81,64 @@ body, html {
   font-family: ubuntu;
   font-size: 0.9em;
   color: gray;
+  box-shadow: 1px 1px 1px #2c2117;
 }
 
-/* .role > p, .recommend > p {
-  display: flex;
-  flex-wrap: wrap;
-  font-family: ubuntu;
-  font-size: 19px;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 7px;
-} */
-
-.role > select {
+.role > select, .favorite > select {
   width: 415px;
   height: 40px;
 }
 
-.recommend > label {
-  display: inline-block;
-}
-
 .recommend > input {
-  display: inline-block;
+  margin-left: 35px;
 }
 
+.recommend > label {
+  font-family: ubuntu;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+}
 
+.improved > input {
+  margin-left: 35px;
+}
 
+.improved > label {
+  font-family: ubuntu;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+}
+
+.comment > textarea {
+  display: block;
+  margin: auto;
+  width: 405px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  text-indent: 3%;
+  font-family: ubuntu;
+  font-size: 1.1em;
+  color: gray;
+  box-shadow: 1px 1px 1px #2c2117;
+}
+
+.submit > input {
+  display: block;
+  background-color: rgb(120, 153, 184);
+  margin: auto;
+  min-width: 415px;
+  height: 44px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: none;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: ubuntu;
+  font-size: 1.1em;
+  box-shadow: 1px 1px 1px #2c2117;
+}
