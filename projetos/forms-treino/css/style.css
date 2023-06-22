@@ -47,7 +47,9 @@ body, html {
 
 .forms {
   background-color: #57402ce7;
-  min-width: 320px;
+  margin: auto;
+  min-width: 360px;
+  max-width: 768px;
   border: 1px transparent black;
   border-radius: 5px;
   text-shadow: 1px 1px 1px black;
@@ -57,7 +59,7 @@ body, html {
 .base > label, .role > p, .favorite > p, .comment > label, .recommend > p, .improved > p {
   display: block;
   margin: auto;
-  width: 280px;
+  width: 340px;
   font-family: ubuntu;
   font-size: 1.1em;
   font-weight: 400;
@@ -69,7 +71,7 @@ body, html {
 .base > input, .role > select, .favorite > select {
   margin: auto;
   display: flex;
-  width: 280px;
+  width: 330px;
   height: 25px;
   border: 1px solid black;
   border-radius: 4px;
@@ -81,13 +83,13 @@ body, html {
 }
 
 .role > select, .favorite > select {
-  width: 290px;
+  width: 340px;
   height: 40px;
 }
 
 .recommend, .improved {
   margin: auto;
-  width: 280px;
+  width: 340px;;
 }
 
 .recommend > input, .improved > input {
@@ -106,7 +108,7 @@ body, html {
 .comment > textarea {
   display: block;
   margin: auto;
-  width: 280px;
+  width: 330px;
   border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
@@ -121,7 +123,7 @@ body, html {
   display: block;
   background-color: rgb(120, 153, 184);
   margin: auto;
-  min-width: 290px;
+  min-width: 340px;
   height: 44px;
   margin-top: 30px;
   font-style: none;
