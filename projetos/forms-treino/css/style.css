@@ -1,0 +1,108 @@
+/* Paleta de Cores
+ #F2B077 - marrom claro
+ #CEE1F2 - azul gelo
+  #8C6746 - marrom  
+*/
+
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,500;0,700;1,500&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body, html {
+  background-color: #00000088;
+  background-image: url(../imagens/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+.title {
+  margin: 50px 0px;
+}
+
+.title > h1 {
+  font-family: montserrat;
+  color: rgb(120, 153, 184);
+  text-align: center;
+  font-size: 2.1em;
+  font-style: italic;
+  text-shadow: 1px 1px 1px black;
+}
+
+.title > p {
+  font-family: ubuntu;
+  color: rgb(120, 153, 184);
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.forms {
+  background-color: #57402ce7;
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  border: 1px transparent black;
+  border-radius: 5px;
+}
+
+.base > label, .role > p, .recommend > p, .recommend > label {
+  display: block;
+  min-width: 400px;
+  font-family: ubuntu;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: white;
+  padding-top: 18px;
+  padding-left: 35px;
+  padding-bottom: 7px;
+}
+
+.base > input, .role > select {
+  margin: auto;
+  display: flex;
+  flex-basis: 300px;
+  width: 405px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  text-indent: 3%;
+  font-family: ubuntu;
+  font-size: 0.9em;
+  color: gray;
+}
+
+/* .role > p, .recommend > p {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: ubuntu;
+  font-size: 19px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 7px;
+} */
+
+.role > select {
+  width: 415px;
+  height: 40px;
+}
+
+.recommend > label {
+  display: inline-block;
+}
+
+.recommend > input {
+  display: inline-block;
+}
+
+
+
