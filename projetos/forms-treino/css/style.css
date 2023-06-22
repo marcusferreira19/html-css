@@ -18,10 +18,8 @@ body, html {
   background-image: url(../imagens/background.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
-}
-
-main {
-  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .title {
