@@ -20,6 +20,10 @@ body, html {
   background-position: center bottom;
 }
 
+main {
+  height: 100vh;
+}
+
 .title {
   margin: 50px 0px;
 }
@@ -46,7 +50,6 @@ body, html {
 .forms {
   background-color: #57402ce7;
   min-width: 320px;
-  margin: auto;
   border: 1px transparent black;
   border-radius: 5px;
   text-shadow: 1px 1px 1px black;
@@ -84,22 +87,22 @@ body, html {
   height: 40px;
 }
 
-.recommend > input, .improved > input {
+.recommend, .improved {
   margin: auto;
+  width: 280px;
 }
 
-.recommend > label {
+.recommend > input, .improved > input {
+  cursor: pointer;
+}
+
+.recommend > label, .improved > label {
   font-family: ubuntu;
   font-size: 1.1em;
   font-weight: 400;
   color: white;
-}
-
-.improved > label {
-  font-family: ubuntu;
-  font-size: 1.1em;
-  font-weight: 400;
-  color: white;
+  margin: auto;
+  align-items: center;
 }
 
 .comment > textarea {
@@ -123,7 +126,6 @@ body, html {
   min-width: 290px;
   height: 44px;
   margin-top: 30px;
-  margin-bottom: 30px;
   font-style: none;
   text-align: center;
   border: 1px solid black;
@@ -132,4 +134,5 @@ body, html {
   font-family: ubuntu;
   font-size: 1.1em;
   box-shadow: 1px 1px 1px #2c2117;
+  cursor: pointer;
 }
