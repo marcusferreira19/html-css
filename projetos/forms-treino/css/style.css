@@ -45,7 +45,7 @@ body, html {
 
 .forms {
   background-color: #57402ce7;
-  min-width: 320px;
+  width: 320px;
   margin: auto;
   border: 1px transparent black;
   border-radius: 5px;
