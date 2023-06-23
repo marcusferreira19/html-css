@@ -65,8 +65,8 @@ body, html {
   font-size: 1.1em;
   font-weight: 400;
   color: white;
-  padding-top: 18px;
-  padding-bottom: 7px;
+  padding-top: 45px;
+  padding-bottom: 3px;
 }
 
 .base > input, .role > select, .favorite > select {
@@ -141,4 +141,34 @@ body, html {
   text-shadow: 1px 1px 1px black;
   box-shadow: 1px 1px 1px #2c2117;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .forms {
+    max-width: 750px;
+  }
+
+  .base > label, .role > p, .favorite > p, .comment > label, .recommend > p, .improved > p {
+    width: 675px;
+  }
+
+  .base > input, .role > select, .favorite > select {
+    width: 665px;
+  }
+
+  .role > select, .favorite > select {
+    width: 675px;
+  }
+
+  .recommend, .improved {
+    width: 675px;
+  }
+
+  .comment > textarea {
+    width: 665px;
+  }
+
+  .submit > input {
+    width: 675px;
+  }
 }
