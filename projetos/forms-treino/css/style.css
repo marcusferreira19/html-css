@@ -62,7 +62,7 @@ body, html {
   margin: auto;
   width: 300px;
   font-family: ubuntu;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 400;
   color: white;
   padding-top: 45px;
@@ -94,7 +94,7 @@ body, html {
   line-height: 40px;
 }
 
-.recommend > input, .improved > input {
+ .recommend > input, .improved > input {
   cursor: pointer;
 }
 
@@ -106,6 +106,11 @@ body, html {
   margin: auto;
   align-items: center;
   cursor: pointer;
+}
+
+.recommend > label:hover, .improved > label:hover{
+  text-decoration: underline;
+  color: rgb(120, 153, 184);
 }
 
 .comment > textarea {
@@ -122,6 +127,10 @@ body, html {
   box-shadow: 1px 1px 1px #2c2117;
 }
 
+.submit {
+  padding-bottom: 50px;
+}
+
 .submit > input {
   display: block;
   background-color: rgb(120, 153, 184);
@@ -129,13 +138,12 @@ body, html {
   min-width: 300px;
   height: 44px;
   margin-top: 30px;
-  
   text-align: center;
   border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
   font-family: ubuntu;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-style: none;
   color: white;
   text-shadow: 1px 1px 1px black;
@@ -143,7 +151,11 @@ body, html {
   cursor: pointer;
 }
 
-/* iPads, Tablets */
+.submit > input:hover {
+  background-color: rgb(0, 206, 0);
+  transition: .5s;
+}
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .forms {
     min-width: 481px;
@@ -174,8 +186,7 @@ body, html {
   }
 }
 
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) {
   .forms {
     min-width: 750px;
   }
