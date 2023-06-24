@@ -146,7 +146,7 @@ body, html {
 /* iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .forms {
-    width: 481px;
+    min-width: 481px;
   }
 
   .base > label, .role > p, .favorite > p, .comment > label, .recommend > p, .improved > p {
@@ -177,7 +177,7 @@ body, html {
 /* Small screens, laptops */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .forms {
-    max-width: 750px;
+    min-width: 750px;
   }
 
   .base > label, .role > p, .favorite > p, .comment > label, .recommend > p, .improved > p {
