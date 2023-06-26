@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.274);
   font-family: lato, sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .top > h1 {
-  background-color: rgba(83, 83, 83, 0.774);
+  background-color:black;
   padding: 15px;
   margin: auto;
   min-width: 300px;
@@ -93,7 +93,7 @@ body {
 }
 
 .bottom > h1 {
-  background-color: rgba(83, 83, 83, 0.774);
+  background-color: black;
   padding: 15px;
   margin: auto;
   min-width: 300px;
