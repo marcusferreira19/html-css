@@ -16,7 +16,6 @@ body {
   color: white;
   display: flex;
   flex-direction: column;
-  text-align: center
 }
 
 .top {
@@ -39,6 +38,10 @@ body {
 }
 
 .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   font-family: sans-serif;
   padding-top: 8vh;
   padding-bottom: 8vh;
@@ -47,6 +50,7 @@ body {
   background-color: rgba(41, 41, 41, 0.904);
   text-align: center;
   line-height: 25px;
+  
 }
 
 .section > h2 {
