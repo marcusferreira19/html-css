@@ -45,12 +45,16 @@ body {
   background-color: rgba(41, 41, 41, 0.904);
   text-align: center;
   line-height: 25px;
-  
 }
 
 .section > h2 {
   font-size: 1.8em;
   padding: 30px;
+}
+
+.section > p {
+  max-width: 800px;
+  font-size: 1.1em;
 }
 
 #section-1 {
