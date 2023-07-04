@@ -72,7 +72,7 @@ body, html {
 
 .base > input, .role > select, .favorite > select {
   margin: auto;
-  display: flex;
+  display: block;
   width: 290px;
   height: 25px;
   border: 1px solid black;
